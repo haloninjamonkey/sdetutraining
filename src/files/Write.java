@@ -9,7 +9,7 @@ import java.io.IOException;
 public class Write {
     public static void main(String[] args) {
         // 1. Define a path that we want to write
-        String filename = "C:\\Users\\patrick.duff\\Desktop\\SDETuniversity\\Files\\FileToWrite.txt";
+        String filename = ""; //the path to the file that we're writing to
         String message = "I'm writing data that will be placed in a file";
 
         // 2. Create File in Java

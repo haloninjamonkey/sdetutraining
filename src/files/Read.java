@@ -8,7 +8,7 @@ import java.io.*;
 public class Read {
     public static void main(String[] args) {
         // 1. Define the file we want to read
-        String filename = "C:\\Users\\patrick.duff\\Desktop\\SDETuniversity\\Files\\FileToRead.txt";
+        String filename = ""; //The path to the file we're reading from
         String text = null;
 
         // 2. Create the file in Java
