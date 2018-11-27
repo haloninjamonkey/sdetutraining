@@ -22,10 +22,11 @@ public class SalaryCalculator {
         int weeksPerYear = 50;
         double rate = 42.50;
 
+        //Compute annual salary
+        //rate * hoursPerWeek * weeksPerYear
+
         double salary = hoursPerWeek * weeksPerYear * rate;
         System.out.println("My salary as a " + career + "at the rate of $" + rate + " per hour is $" + salary + " per year.");
 
-        //Compute annual salary
-        //rate * hoursPerWeek * weeksPerYear
     }
 }

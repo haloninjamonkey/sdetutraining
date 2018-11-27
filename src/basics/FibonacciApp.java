@@ -10,7 +10,7 @@ public class FibonacciApp {
         //fib(0) = 0
         //fib(1) = 1
         //fib(2) = fib(1) + fib(0) = 0 + 1 = 1
-        System.out.println(fib(3));
+        System.out.println(fib(6));
     }
 
     public static int fib(int n) {

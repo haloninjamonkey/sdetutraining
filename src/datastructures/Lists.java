@@ -10,7 +10,7 @@ public class Lists {
 
     public static void main(String[] args) {
         // 1. Create a collection
-        ArrayList<String> cities = new ArrayList<String>();
+        ArrayList<String> cities = new ArrayList<>();
 
         // 2. Add some elements
         cities.add("Boise");
@@ -39,5 +39,7 @@ public class Lists {
         for (String city : cities) {
             System.out.println(city);
         }
+
+
     }
 }

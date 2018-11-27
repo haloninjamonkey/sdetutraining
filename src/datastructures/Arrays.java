@@ -43,6 +43,7 @@ public class Arrays {
 
         //Traverse the double array
         System.out.println("\n\nEducated way: ");
+        //Knowing what info is in each field
         for (int i = 0; i < numOfUsers; i++) {
             String firstName = users[i][0];
             String lastName = users[i][1];
